@@ -1,0 +1,42 @@
+.header {
+    border-bottom: 1px solid #ccc;
+}
+
+.header__container {
+    display: flex;
+    max-width: var(--max-container-width);
+    margin: 0 auto;
+}
+
+.header__logo {
+    flex: 1;
+    padding: 10px 0;
+}
+
+.header__logo img {
+    width: 120px;
+    display: block;
+}
+
+.header__logo a {
+    display: inline-block;
+}
+
+.header__menuContainer {
+    display: flex;
+}
+
+.header__menu {
+    display: flex;
+    align-self: center;
+}
+
+.header__menu a {
+    cursor: pointer;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.header__menu .active {
+    text-decoration: underline;
+}

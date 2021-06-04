@@ -1,0 +1,32 @@
+.home {
+    margin-top: 250px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.home h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.home h2 {
+    font-size: 18px;
+}
+
+.home__play {
+    margin-top: 30px;
+}
+
+.home__play a {
+    border: 2px solid black;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    display: inline-block;
+    color: white;
+    background: var(--black-1);
+}
+
+.home__play a:hover {
+    background: var(--black-light);
+}

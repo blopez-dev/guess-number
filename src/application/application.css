@@ -1,0 +1,11 @@
+body {
+    font-family: var(--primary-font);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--black-1);
+}

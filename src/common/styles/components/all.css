@@ -1,0 +1,10 @@
+/* Components */
+@import '../../../application/application.css';
+@import '../../../application/components/layout/layout.css';
+@import '../../../application/components/header/header.css';
+@import '../../../application/components/footer/footer.css';
+@import '../../components/button/button.css';
+@import '../../components/button/button.css';
+
+/* Pages */
+@import '../../../pages/home/home.css';
